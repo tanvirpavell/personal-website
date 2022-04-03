@@ -1,0 +1,68 @@
+body{
+    font-family: 'Comfortaa', cursive;
+font-family: 'Ubuntu', sans-serif;
+}
+.name-highlight{
+    color: #c21e1e;
+}
+.half-weight{
+float: left;
+width: 40%;
+padding: 2%;
+margin: 8%;
+}
+.button{text-decoration: none;
+    padding: 8px 20px;
+    height: 30px;
+    background: #ffffff ;
+background: linear-gradient(90deg, #2b0505 0%, rgba(158,22,22,1) 100%, rgb(255, 255, 255) 100%);
+font-size: 24px;
+border-radius: 5px;
+color: #ffffff;
+
+   
+}
+.img-weight img{
+    width: 70%;
+    margin: none;
+    padding: none;
+
+}
+.top-backgroung{
+    display: flex;
+    background-image: url("image/header-bg.png");
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+.scend-backgroung{
+    display: flex;
+    background-image: url("image/biography-bg.png");
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
+}
+.text-aline{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.work-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.work-section img{
+    width: 480px;
+}
+.navbar-button{
+    text-decoration: none;
+    padding: 8px 20px;
+    width:70%;
+    background: #ffffff ;
+background: linear-gradient(90deg, #2b0505 0%, rgba(158,22,22,1) 100%, rgb(255, 255, 255) 100%);
+border-radius: 5px;
+color: #ffffff;
+justify-content: center;
+}
+.navbar-button-name{
+    font-size: 9px;
+    text-decoration: none;
+}
