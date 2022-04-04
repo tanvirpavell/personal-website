@@ -1,68 +1,96 @@
-body{
+body {
     font-family: 'Comfortaa', cursive;
-font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
-.name-highlight{
+
+.name-highlight {
     color: #c21e1e;
 }
-.half-weight{
-float: left;
-width: 40%;
-padding: 2%;
-margin: 8%;
+
+.half-weight {
+    float: left;
+    width: 40%;
+    padding: 2%;
+    margin: 8%;
 }
-.button{text-decoration: none;
+
+.button {
+    text-decoration: none;
     padding: 8px 20px;
     height: 30px;
-    background: #ffffff ;
-background: linear-gradient(90deg, #2b0505 0%, rgba(158,22,22,1) 100%, rgb(255, 255, 255) 100%);
-font-size: 24px;
-border-radius: 5px;
-color: #ffffff;
+    background: #ffffff;
+    background: linear-gradient(90deg, #2b0505 0%, rgba(158, 22, 22, 1) 100%, rgb(255, 255, 255) 100%);
+    font-size: 24px;
+    border-radius: 5px;
+    color: #ffffff;
 
-   
+
 }
-.img-weight img{
+
+.img-weight img {
     width: 70%;
     margin: none;
     padding: none;
 
 }
-.top-backgroung{
+
+.top-backgroung {
     display: flex;
     background-image: url("image/header-bg.png");
     background-repeat: no-repeat;
     padding-bottom: 100px;
 }
-.scend-backgroung{
+
+.scend-backgroung {
     display: flex;
     background-image: url("image/biography-bg.png");
     background-repeat: no-repeat;
     padding-bottom: 150px;
 }
-.text-aline{
+
+.text-aline {
     text-align: center;
     padding-bottom: 100px;
 }
-.work-section{
+
+.work-section {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;}
+   
+.latest-work{
+    background-image: url(image/latest-work-bg.png);
+    background-repeat: no-repeat;
+
 }
-.work-section img{
-    width: 480px;
+
+.work-section img {
+    width: 300px;
 }
+
 .navbar-button{
     text-decoration: none;
-    padding: 8px 20px;
-    width:70%;
-    background: #ffffff ;
-background: linear-gradient(90deg, #2b0505 0%, rgba(158,22,22,1) 100%, rgb(255, 255, 255) 100%);
-border-radius: 5px;
-color: #ffffff;
-justify-content: center;
+    padding: 40px 20px;
+    width: 500px;
+    background: linear-gradient(95deg, #2b0505 0%, rgba(158, 22, 22, 1) 100%, rgb(255, 255, 255) 100%);
+    border-radius: 5px;
+    color: #ffffff;
 }
-.navbar-button-name{
+
+.navbar-button-name {
     font-size: 9px;
     text-decoration: none;
+    padding-bottom: 10px;
+}
+.last-section{
+    background-image: url(image/footer-bg.png);
+    background-repeat: no-repeat;
+}
+.button-three{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+footer p{
+    text-align: center;
 }
